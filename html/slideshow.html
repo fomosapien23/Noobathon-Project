@@ -2,7 +2,9 @@
 <html>
   <head>
     <title>Slideshow Images</title>
-    <style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <!-- <style>
       .slider {
         width: 100%;
         height: 300px;
@@ -50,23 +52,39 @@
         border-radius: 50px;
         background-color: lightgreen;
       }
-    </style>
+    </style> -->
   </head>
   <body>
-    <div class="slider">
-      <span id="slide-1"></span>
-      <span id="slide-2"></span>
-      <span id="slide-3"></span>
-      <div class="image-container">
-        <img src="/images/lide1.webp" class="slide" width="500" height="300" />
-        <img src="/images/slide2.webp" class="slide" width="500" height="300" />
-        <img src="/images/slide3.webp" class="slide" width="500" height="300" />
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <img src="https://www.w3schools.com/howto/img_snow_wide.jpg" style="width:100%">
+        <div class="text">Caption Text</div>
       </div>
-      <div class="buttons">
-        <a href="#slide-1"></a>
-        <a href="#slide-2"></a>
-        <a href="#slide-3"></a>
+      
+      <div class="mySlides fade">
+        <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg" style="width:100%">
+        <div class="text">Caption Two</div>
       </div>
-    </div>
+      
+      <div class="mySlides fade">
+        <img src="https://www.w3schools.com/howto/img_nature_wide.jpg" style="width:100%">
+        <div class="text ">Caption Three</div>
+      </div>
+      
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+      </div>
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+      </div>
+      <br/>
+      <h1 style="text-align:center"><a href="http://kkupgrader.blogspot.com/2020/11/how-to-create-slideshow-with-automatic-image-slide.html">Install in Blogger and Download As Zip From Here</a></h1>
+</div>
+
+<link rel="stylesheet" href="../js/index.js">
   </body>
 </html>

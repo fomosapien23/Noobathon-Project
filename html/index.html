@@ -16,28 +16,28 @@
     <div>
         <nav>
             <div class="logo">
-                <img src="../logo/final-logo.png" alt="logo">
-                
+                <img class="logo-img" src="../logo/logo.png" alt="logo">
+
             </div>
-            
-            
-                <ul>
-                    <div class="search">
-                        <form action="">
-                            <input class="search_btn" type="search" placeholder="search">
-                        </form>
-                    </div>
-                
-                    <li class="login">
-                        <a href="">Log-in</a>
-                    </li>
-                    <li>
-                        <a href="">My-orders</a>
-                    </li>
-                    <li>
-                        <a href="">Cart</a>
-                    </li>
-                </ul>
+
+
+            <ul>
+                <div class="search">
+                    <form action="">
+                        <input class="search_btn" type="search" placeholder="search">
+                    </form>
+                </div>
+
+                <li class="login">
+                    <a href="">Log-in</a>
+                </li>
+                <li>
+                    <a href="">My-orders</a>
+                </li>
+                <li>
+                    <a href="">Cart</a>
+                </li>
+            </ul>
         </nav>
         <div class="items">
             <div class="sub-items">
@@ -66,6 +66,14 @@
             </div>
             <div class="sub-items">
                 <div>
+                    <a href=""><img class="img" src="../images/shoes.png" alt=""></a>
+                </div>
+                <div>
+                    <a class="items-links" href="../html/shoes.html">Footwear</a>
+                </div>
+            </div>
+            <div class="sub-items">
+                <div>
                     <a href=""><img class="img" src="../images/furniture.webp" alt=""></a>
                 </div>
                 <div>
@@ -74,7 +82,53 @@
             </div>
         </div>
 
-    </div>
+
+
+        <!-- partial:index.partial.html -->
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <img src="../images/SlideShow_gadgets.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="../images/SlideShowGadget2.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="../images/SlideShowFurniture.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+                <img src="../images/SlideShow_mobiles.jpg" style="width:100%">
+            </div>
+
+            <div class="slide-move">
+
+                <a class="prev" onclick="plusSlides(-1)">&#x21e6;</a>
+            </div>
+            <div class="slide-move">
+
+                <a class="next" onclick="plusSlides(1)">&#x21e8;</a>
+            </div>
+
+        </div>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+        <br />
+
+        <!-- partial -->
+        <script
+            src='https://rawcdn.githack.com/KKUPGRADER/blogger/be611fb3af8a03353bf2ca2f33895a46b3bd9584/slideshow.js'>
+        </script>
+        <script src="../js/index.js"></script>
+
+
+
 </body>
 
 </html>

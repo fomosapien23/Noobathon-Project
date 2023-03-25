@@ -1,0 +1,40 @@
+input[type="textbox"],
+input[type="email"],
+input[type="password"] {
+  padding: 14px 6px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+h4 {
+  font-style: oblique;
+}
+table {
+  padding: 40px;
+}
+h3 {
+  text-align: center;
+  font-size: x-large;
+  color: #002d62;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+fieldset {
+  height: 500px;
+  width: 400px;
+  border-radius: 20px;
+  border-color: black;
+  background-color: whitesmoke;
+  box-shadow: 0 0 60px black;
+}
+body {
+  background: #2874f0;
+}
+button {
+  background-color: #32cd32;
+  padding: 16px 30px;
+  border: none;
+  color: white;
+  border-radius: 45px;
+  cursor: pointer;
+}

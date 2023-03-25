@@ -65,6 +65,33 @@ a{
     text-decoration: none;
     color:white;
 }
-a:hover{
+ul a:hover{
     transform: scale(1.2);
+}
+
+
+/* items */
+.items{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top:30px;
+}
+.sub-items{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+}
+.sub-items:hover{
+    transform: scale(1.2);
+}
+.img{
+    position: relative;
+    left:-0px;
+    background: transparent;
+}
+
+.items-links{
+    color:black;
 }

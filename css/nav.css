@@ -26,7 +26,7 @@ li:placeholder{
     float:right;
     font-size: 200px;
 }
-img{
+.logo img{
     float: left;
     display:inline-block;
     left: 25px;

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogue</title>
+    <link rel="stylesheet" href="/css/catalogue.css">
+    <link rel="stylesheet" href="/css/nav.css">
+    <style>
+        
+        .grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 30px;
+    
+        }
+        .grid-item{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        .grid-item img {
+       
+
+       transition: transform .2s;
+       width: 300px;
+ 
+       padding: 20px;
+     }
+     .grid-item img:hover{
+      
+       -ms-transform: scale(1.25); /* IE 9 */
+ -webkit-transform: scale(1.25); /* Safari 3-8 */
+ transform: scale(1.10); 
+     }
+        
+    </style>
+</head>
+<body >
+    <div>
+        <nav>
+            <div class="logo">
+                <img src="../logo/final-logo.png" alt="logo">
+                
+            </div>
+            
+            
+                <ul>
+                    <div class="search">
+                        <form action="">
+                            <input class="search_btn" type="search" placeholder="search">
+                        </form>
+                    </div>
+                
+                    <li class="login">
+                        <a href="">Log-in</a>
+                    </li>
+                    <li>
+                        <a href="">My-orders</a>
+                    </li>
+                    <li>
+                        <a href="">Cart</a>
+                    </li>
+                </ul>
+        </nav>
+
+    </div>
+    <div class="main">
+
+
+           <div class="grid">
+            <div class="grid-item"><img src="/images/fur1.webp" alt=""><br> Vagabond (VIZBIG Edition), Vol. 1 <br>price: 1250 <br>By: Takehiko Inoue <p><button>Add to Cart<span>&#8594;</span></button></p></div>
+            <div class="grid-item"><img src="/images/V2.webp" alt=""><br> Vagabond (VIZBIG Edition), Vol. 1 <br>price: 1250 <br>By: Takehiko Inoue <p><button>Add to Cart<span>&#8594;</span></button></p></div>
+            <div class="grid-item"><img src="/images/fur3.webp" alt=""><br> Vagabond (VIZBIG Edition), Vol. 1 <br>price: 1250 <br>By: Takehiko Inoue <p><button>Add to Cart<span>&#8594;</span></button></p></div>
+            <div class="grid-item"><img src="/images/fur4.webp" alt=""><br> Vagabond (VIZBIG Edition), Vol. 1 <br>price: 1250 <br>By: Takehiko Inoue <p><button>Add to Cart<span>&#8594;</span></button></p></div>
+            <div class="grid-item"><img src="/images/fur5.webp" alt=""><br> Vagabond (VIZBIG Edition), Vol. 1 <br>price: 1250 <br>By: Takehiko Inoue <p><button>Add to Cart<span>&#8594;</span></button></p></div>
+            <div class="grid-item"><img src="/images/fur6.webp" alt=""><br> Vagabond (VIZBIG Edition), Vol. 1 <br>price: 1250 <br>By: Takehiko Inoue <p><button>Add to Cart<span>&#8594;</span></button></p></div>
+            <div class="grid-item"><img src="/images/fur7.webp" alt=""><br> Vagabond (VIZBIG Edition), Vol. 1 <br>price: 1250 <br>By: Takehiko Inoue <p><button>Add to Cart<span>&#8594;</span></button></p></div>
+            <div class="grid-item"><img src="/images/fur8.webp" alt=""><br> Vagabond (VIZBIG Edition), Vol. 1 <br>price: 1250 <br>By: Takehiko Inoue <p><button>Add to Cart<span>&#8594;</span></button></p></div>
+            <div class="grid-item"><img src="/images/fur9.webp" alt=""><br> Vagabond (VIZBIG Edition), Vol. 1 <br>price: 1250 <br>By: Takehiko Inoue <p><button>Add to Cart<span>&#8594;</span></button></p></div>
+           
+          </div>
+    </div>
+   
+</body>
+</html>

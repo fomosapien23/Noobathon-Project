@@ -1,0 +1,27 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(final.jpg);
+    background-size:auto;
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+   background-attachment: fixed;
+}
+
+td{
+    padding: 75px;
+    text-align: center;
+}
+.a:hover{
+background-color:#ffffff;
+}
+button{
+background-color: #2874f0;
+border-radius: 8px;
+font-size: 25px;
+color: white;
+width: 200px;
+height: 40px;
+border: 0;
+
+}
